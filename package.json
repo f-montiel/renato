@@ -1,0 +1,29 @@
+{
+  "name": "backendejerciciofinal",
+  "version": "1.0.0",
+  "description": "Proyecto final del curso de programación fullStack",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "dev": "nodemon --exec babel-node src/index.js"
+  },
+  "keywords": [
+    "Node",
+    "JS",
+    "Backend",
+    "MongoDB"
+  ],
+  "author": "Renato Trevisiol Montiel",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "mongoose": "^7.5.2",
+    "morgan": "^1.10.0"
+  }
+}
